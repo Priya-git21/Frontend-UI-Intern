@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-// import { FiSmile } from 'react-icons/fi';
+import React from 'react';
 import './home.css';
 import appStoreButton from './assets/appstore.png';
 import phone from './assets/phone.png';
@@ -16,9 +15,8 @@ const AnimatedHome = () => {
       <div className="left-half">
         <div className="content">
           <img src={elements} alt="Download on the App Store" className='top' />
+
           <p>Ahead App</p>
-
-
           <div className="col-md-12 ">
             <h1 className="animated-text animate-character">
               Master your life by mastering emotions

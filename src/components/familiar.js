@@ -43,7 +43,7 @@ function Familiar() {
               head={e.head}
               desc={e.desc}
               emoji={e.emoji}
-              rotate={e.rotate} // Disable rotation by default
+              rotate={e.rotate} 
             />
           ))}
           {boxes.map((e, index) => (

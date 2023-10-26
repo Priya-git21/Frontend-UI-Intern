@@ -1,4 +1,6 @@
 import './App.css';
+import EQbeatsIQ from './components/EQbeatsIQ';
+import EQ from './components/eq';
 import Familiar from './components/familiar';
 // import Gallery from './pages/Gallery/Gallery';
 import Home from './components/home';
@@ -19,7 +21,9 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <EQbeatsIQ/>
       <Familiar/>
+      <EQ/>
       {/* <EventsPage /> */}
       {/* <Members /> */}
       {/* <Blogs /> */}

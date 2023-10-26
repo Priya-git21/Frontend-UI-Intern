@@ -7,15 +7,15 @@
     height: 90vh;
     width: 100vw;
     background-color: rgb(238, 235, 254);
-    font-family: 'Neuton', sans-serif;
+    /* font-family: 'Neuton', sans-serif; */
     font-size: 20px;
     overflow: hidden;
+    border-radius: 32px;
 }
 
 .top {
     z-index: -1;
 }
-
 
 .left-half {
     flex: 1;
@@ -28,7 +28,6 @@
 }
 
 .animate-character {
-    /* text-transform: uppercase; */
     background-image: linear-gradient(-225deg,
             #231557 0%,
             #44107a 29%,
@@ -39,7 +38,6 @@
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
-    /* text-fill-color: transparent; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
@@ -60,9 +58,7 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    /* animation: fadeIn 2s ease-in-out; */
-    /* opacity: 0; */
-  }
+}
 
 
 .app {

@@ -1,0 +1,24 @@
+.eq-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    margin: 50px;
+  }
+  
+  .eq-heading {
+    text-align: center;width: 20%;
+  }
+  
+  .eq-content {
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .eq-content p {
+    margin: 0;
+    width: 30%;
+  }
+  
