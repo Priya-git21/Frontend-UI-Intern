@@ -5,10 +5,12 @@ import './Box.css';
 const Box = (props) => {
 
     return (
-        <div className="mainBox" style={{ backgroundColor: props.color, transform:props.rotate }}>
+        <div className="mainBox" style={{ backgroundColor: props.color, transform:props.rotate ,width:'50px'
+          }}>
             <div className="emojiBox">
                 {props.emoji}
             </div>
+            <br/>
             <div style={{color : props.text}}>
 
                 <div className="headingBox">

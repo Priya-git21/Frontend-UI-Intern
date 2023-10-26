@@ -34,29 +34,29 @@ function Familiar() {
       </motion.div>
       <div className="boxHandle">
         <div className="boxContainer">
-        
-{boxes.map((e, index) => (
-  <Box
-    key={index}
-    text={e.text}
-    color={e.color}
-    head={e.head}
-    desc={e.desc}
-    emoji={e.emoji}
-    rotate={e.rotate} // Disable rotation by default
-  />
-))}
-{boxes.map((e, index) => (
-  <Box
-    key={index + boxes.length} // Add an offset to the key
-    text={e.text}
-    color={e.color}
-    head={e.head}
-    desc={e.desc}
-    emoji={e.emoji}
-    rotate={e.rotate} // Duplicate the cards
-  />
-))}
+
+          {boxes.map((e, index) => (
+            <Box
+              key={index}
+              text={e.text}
+              color={e.color}
+              head={e.head}
+              desc={e.desc}
+              emoji={e.emoji}
+              rotate={e.rotate} // Disable rotation by default
+            />
+          ))}
+          {boxes.map((e, index) => (
+            <Box
+              key={index + boxes.length}
+              text={e.text}
+              color={e.color}
+              head={e.head}
+              desc={e.desc}
+              emoji={e.emoji}
+              rotate={e.rotate}
+            />
+          ))}
         </div>
       </div>
     </div>

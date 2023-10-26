@@ -1,23 +1,35 @@
+h1{
+  display: block;
+  font-size: 64px;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
 .boxHandle {
   display: flex;
   overflow: hidden;
-  width: 100vw; /* Ensure the container takes the full width of the viewport */
+  width: 100vw;
   padding: 15px;
 }
+
 .boxHandle--hidden {
   display: none;
 }
+
 .boxContainer {
   display: flex;
-  animation: scroll 30s linear infinite;
+  animation: scroll 10s linear infinite;
 }
-
+.boxContainer:hover{
+  animation-play-state: paused;
+}
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
+
   100% {
-    transform: translateX(-100%); /* Scroll the containers infinitely */
+    transform: translateX(-100%);
   }
 }
 
