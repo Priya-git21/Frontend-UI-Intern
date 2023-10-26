@@ -2,6 +2,7 @@ import './App.css';
 import EQbeatsIQ from './components/EQbeatsIQ';
 import EQ from './components/eq';
 import Familiar from './components/familiar';
+import Meet from './components/Meet';
 // import Gallery from './pages/Gallery/Gallery';
 import Home from './components/home';
 // import Blogs from './pages/Blogs/Blogs';
@@ -23,6 +24,7 @@ function App() {
       <Home />
       <EQbeatsIQ/>
       <Familiar/>
+      <Meet/>
       <EQ/>
       {/* <EventsPage /> */}
       {/* <Members /> */}
