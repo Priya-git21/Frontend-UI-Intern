@@ -1,0 +1,26 @@
+.boxHandle {
+  display: flex;
+  overflow: hidden;
+  width: 100vw; /* Ensure the container takes the full width of the viewport */
+  padding: 15px;
+}
+.boxHandle--hidden {
+  display: none;
+}
+.boxContainer {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Scroll the containers infinitely */
+  }
+}
+
+.heading {
+  padding-left: 10px;
+}

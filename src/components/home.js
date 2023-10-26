@@ -17,7 +17,8 @@ const Home = () => {
           <div className="star-rating">
             <span>★★★★★</span>
           </div>
-          <div>100+ App Store reviews</div>
+          <br/>
+          <small>100+ App Store reviews</small>
           </div>
         </div>
         </div>

@@ -1,4 +1,5 @@
 import './App.css';
+import Familiar from './components/familiar';
 // import Gallery from './pages/Gallery/Gallery';
 import Home from './components/home';
 // import Blogs from './pages/Blogs/Blogs';
@@ -18,6 +19,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Familiar/>
       {/* <EventsPage /> */}
       {/* <Members /> */}
       {/* <Blogs /> */}
