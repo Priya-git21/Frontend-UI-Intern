@@ -2,7 +2,10 @@ import React, { useRef, useEffect } from 'react';
 import './familiar.css';
 import boxes from './Boxes.json';
 import Box from './Box';
-import { motion, useInView, useAnimation } from 'framer-motion';
+import {  useInView, useAnimation } from 'framer-motion';
+// import { bounce } from 'react-animations';
+// import Radium, {StyleRoot} from 'radium';
+import ghost from './assets/ghosts/ghost.mp4';
 
 function Familiar() {
   const ref = useRef(null);
@@ -11,27 +14,21 @@ function Familiar() {
 
   useEffect(() => {
     if (isInView.inView) {
+      console.log("true")
       mainControls.start('visible');
     }
-  }, [isInView, mainControls]);
+  }, [isInView]);
 
   return (
     <div className="Familiar">
-      <motion.div
-        ref={ref}
-        className="heading"
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-        initial="hidden"
-        animate={mainControls}
-        transition={{
-          duration: 0.5,
-        }}
-      >
-        <h1>Does this sound Familiar...</h1>
-      </motion.div>
+
+      <div className='combine'>
+
+      <h1 className='heading'>Does this sound Familiar...</h1>
+      {/* <div className='ghost'>
+        <img src={ghost} height={170} className='ghost-image' />
+      </div> */}
+      </div>
       <div className="boxHandle">
         <div className="boxContainer">
 
@@ -43,7 +40,7 @@ function Familiar() {
               head={e.head}
               desc={e.desc}
               emoji={e.emoji}
-              rotate={e.rotate} 
+              rotate={e.rotate} // Disable rotation by default
             />
           ))}
           {boxes.map((e, index) => (

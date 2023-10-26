@@ -1,8 +1,9 @@
 .mainBox{
-    min-width: 23%;
+    min-width: 20%;
     padding: 20px;
     border-radius: 15px;
     margin: 0px 20px;
+    /* text-wrap: wrap; */
 }
 
 .emojiBox{
@@ -12,4 +13,8 @@
 
 .headingBox{
     font-weight: 700;
+}
+
+.descBox{
+
 }

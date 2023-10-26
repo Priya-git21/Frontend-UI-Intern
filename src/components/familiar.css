@@ -1,9 +1,15 @@
 h1{
   display: block;
-  font-size: 64px;
+  font-size: 48px;
   color: #000000;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
+}
+
+.testing{
+  width: 80vw;
+  height: 40vh;
+  background-color: #1111;
 }
 .boxHandle {
   display: flex;
@@ -18,7 +24,7 @@ h1{
 
 .boxContainer {
   display: flex;
-  animation: scroll 10s linear infinite;
+  animation: scroll 13s linear infinite;
 }
 .boxContainer:hover{
   animation-play-state: paused;
@@ -29,10 +35,29 @@ h1{
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-95%);
   }
 }
 
 .heading {
   padding-left: 10px;
+}
+
+.combine{
+  display: flex;
+}
+
+.ghost{
+  height: 120px;
+  width: 300px;
+  /* border: 2px solid; */
+  position: relative;
+  overflow: hidden;
+}
+
+.ghost-image{
+  position: relative;
+  top: -20px;
+  left: -2px;
+
 }

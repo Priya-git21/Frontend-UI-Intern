@@ -33,15 +33,16 @@
         "head" : "You argue with a colleague"
     },
     {
-        "rotate" : "rotate(-1deg)",
-        "emoji" : "😒",
+        "rotate" : "rotate(1deg)",
+        "emoji" : "😃",
         "text" : "black",
-        "color" : "#EEEB1F",
+        "color" : "#EEEBFE",
         "desc" : "You get angry and defensive, instead of staying open and working towards common ground",
         "head" : "You argue with a colleague"
     },
+    
     {
-        "rotate" : "rotate(3deg)",
+        "rotate" : "rotate(0deg)",
         "emoji" : "😠",
         "text" : "black",
         "color" : "#FFEFD5",
@@ -49,11 +50,20 @@
         "head" : "You argue with a colleague"
     },
     {
+        "rotate" : "rotate(-2deg)",
+        "emoji" : "😳",
+        "text" : "white",
+        "color" : "#6341EF",
+        "desc" : "You question yourself and wonder when they'll realise you're an unqualified impostor, instead of trusting yourself and your abilities",
+        "head" : "You get a promotion at work"
+    },
+    {
         "rotate" : "rotate(1deg)",
-        "emoji" : "🥺",
+        "emoji" : "😠",
         "text" : "black",
-        "color" : "#EEEBA2",
+        "color" : "#D8F2FF",
         "desc" : "You get angry and defensive, instead of staying open and working towards common ground",
         "head" : "You argue with a colleague"
     }
+    
 ]
