@@ -3,9 +3,6 @@ import './familiar.css';
 import boxes from './Boxes.json';
 import Box from './Box';
 import {  useInView, useAnimation } from 'framer-motion';
-// import { bounce } from 'react-animations';
-// import Radium, {StyleRoot} from 'radium';
-import ghost from './assets/ghosts/ghost.mp4';
 
 function Familiar() {
   const ref = useRef(null);
@@ -25,9 +22,6 @@ function Familiar() {
       <div className='combine'>
 
       <h1 className='heading'>Does this sound Familiar...</h1>
-      {/* <div className='ghost'>
-        <img src={ghost} height={170} className='ghost-image' />
-      </div> */}
       </div>
       <div className="boxHandle">
         <div className="boxContainer">
@@ -40,7 +34,7 @@ function Familiar() {
               head={e.head}
               desc={e.desc}
               emoji={e.emoji}
-              rotate={e.rotate} // Disable rotation by default
+              rotate={e.rotate}
             />
           ))}
           {boxes.map((e, index) => (
