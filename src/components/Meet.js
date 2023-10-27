@@ -1,5 +1,5 @@
 import React from "react";
-import "./Meet.css";
+import "./Meet.css"; import elements from './assets/elements.png';
 import ghost4 from "./assets/ghosts/ghost4.png";
 
 const Meet = () => {
@@ -20,6 +20,9 @@ const Meet = () => {
         <p>
           Think of it as a pocket cheerleader towards a better, more fulfilling.
         </p>
+        <div className="bg">
+          <img src={elements} alt="elements" style={{ marginBottom: "-300px" }} />
+        </div>
       </div>
     </div>
   );

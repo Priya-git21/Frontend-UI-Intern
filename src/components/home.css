@@ -128,7 +128,7 @@ img.ghost {
 .image1 {
     top: calc(50%);
     left: calc(50%);
-    transform: rotate(0deg) translateX(180px) rotate(-0deg);
+    transform: rotate(0deg) translateX(170px) rotate(0deg);
 }
 
 .image2 {
@@ -140,7 +140,7 @@ img.ghost {
 .image3 {
     top: calc(50%);
     left: calc(50%);
-    transform: rotate(240deg) translateX(330px) rotate(-240deg);
+    transform: rotate(240deg) translateX(350px) rotate(-240deg);
 }
 
 .center-circle {
