@@ -8,22 +8,18 @@ import ghost2 from './assets/ghosts/ghost2.png';
 import ghost3 from './assets/ghosts/ghost3.png';
 
 const AnimatedHome = () => {
-
-
   return (
     <div className="animated-home">
       <div className="left-half">
         <div className="content">
-          <img src={elements} alt="Download on the App Store" className='top' />
+          <img src={elements} alt="" className='top' />
 
           <p>Ahead App</p>
           <div className="col-md-12 ">
             <h1 className="animated-text animate-character">
               Master your life by mastering emotions
             </h1>
-
           </div>
-
           <div className="app">
             <a href="/" className="app-store-link">
               <img src={appStoreButton} alt="Download on the App Store" />
@@ -35,7 +31,7 @@ const AnimatedHome = () => {
               <small>100+ App Store reviews</small>
             </div>
           </div>
-          <img src={elements} alt="Download on the App Store" className='top' />
+          <img src={elements} alt="" className='top' />
         </div>
       </div>
       <div className="right-half">

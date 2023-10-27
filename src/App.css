@@ -4,6 +4,9 @@
 :root {
   --heading-font: 'Playfair Display', serif;
   --text-font: 'Neuton', sans-serif;
+  overflow-x: hidden;
+  text-wrap: wrap;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
